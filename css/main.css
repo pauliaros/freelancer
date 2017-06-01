@@ -133,6 +133,7 @@ h2 {
 #about{
 	text-align: center;
 	padding: 40px;
+	padding-bottom: 70px;
 
 }
 
@@ -147,4 +148,30 @@ h2 {
 	cursor: pointer;
 	text-align: center;
 
+}
+
+#contact-me{
+  background-color: #fff;
+  display:block;
+  padding: 50px 7px;
+  margin:0px auto;
+  text-align: center;
+
+}
+   .botoncito {
+	color: white;
+	background-color: #28C6A4;
+	padding: 15px;
+	
+	border-radius: 5px;
+	font-size: 1.2em;
+	font-weight: bolder;
+	cursor: pointer;
+	text-align: center;
+  
+  
+}
+
+.boton-send{
+	text-align: center;
 }
