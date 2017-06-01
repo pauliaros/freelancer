@@ -1,3 +1,107 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  font-family: 'Raleway', sans-serif;
+
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquÃ­ */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color:  #28C6A4;
+}
+
+
+p {
+	color:#fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  float:right;
+}
+
+a:hover{
+	background-color: #28C6A4;
+}
+
+.link{
+  font-weight: 700;
+  padding: 23px;
+  display: inline-block;
+}
+
+.titulo-header{
+  float: left;
+  margin-top: 8px;
+  
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header{
+  position: fixed;
+  background: #3E4B48;
+  width: 100%;
+  top: 0;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+
+.img-free{
+  display: inline-block;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  margin-left: 40%;
+
+}
+
+.titulo {
+	text-align: center;	
+ font-size: 50px;	
+  font-weight: bold;
+}
+
+.subtitulo{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom:50px;
+
+}
+
+#galery{
+  background-color: #fff;
+  display:block;
+  padding: 50px 7px;
+  margin:0px auto;
+  
+}
+.img-port{
+  max-width: 400px;
+  width: 1000px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+	color:#000;
+	font-weight: bold;
+}
