@@ -56,7 +56,7 @@ a:hover{
 
 header{
   position: fixed;
-  background: #3E4B48;
+  background: #27384B;
   width: 100%;
   top: 0;
 }
@@ -151,27 +151,103 @@ h2 {
 }
 
 #contact-me{
-  background-color: #fff;
-  display:block;
-  padding: 50px 7px;
-  margin:0px auto;
-  text-align: center;
+text-align: center;
+	padding: 40px;
+	padding-bottom: 70px;
+	background-color: #fff;
 
 }
    .botoncito {
 	color: white;
 	background-color: #28C6A4;
-	padding: 15px;
-	
 	border-radius: 5px;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: bolder;
 	cursor: pointer;
 	text-align: center;
+	
+	margin-left: 300px;
+	margin-right: 750px;
+	position: relative;
+
   
   
 }
 
+input {
+	width: 600px;
+    padding: 13px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background: #fff;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid #CAC9C9;
+    margin-left: 30px;
+}
+
+hr {
+  height: 2px;
+  background-color: #CAC9C9;
+  margin-top: 20px;
+    border: none;
+    margin-left: 300px;
+    margin-right: 270px;
+}
+
+
+textarea {
+	width: 600px;
+	height: 150px;
+    padding: 13px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background: #fff;
+    
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid #CAC9C9;
+    margin-left: 30px;
+}
+
+
+
+
 .boton-send{
 	text-align: center;
+}
+
+#info{
+	text-align: center;
+	padding: 40px;
+	padding-bottom: 70px;
+	  background: #27384B;
+}
+
+h1 {
+	font-size: 20px;
+	color: #fff;
+}
+
+.link-about{
+	color: #28C6A4;
+}
+.logo{
+	width: 60px;
+	margin: 5px;
+}
+
+.logo:hover{
+	
+	background-color: #28C6A4;
+}
+
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #27384B;
+  color: white;
+  padding: 7px;
 }
